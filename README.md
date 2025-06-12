@@ -28,3 +28,39 @@ You can use it to:
 
 ## 📂 Project Structure
 
+# FaceRecoginition
+
+d-----         Project Folder
+d-----         __pycache__
+-a----         cosin_face.py
+-a----         embedding.pkl
+-a----         face_detection.py
+-a----         face_register.py
+-a----         image_vectorization.py
+
+
+
+---
+
+## 🔧 Technologies Used
+
+- Python 3
+- DeepFace
+- OpenCV (`cv2`)
+- NumPy
+- PIL (optional for image handling)
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/SunnyC0DE/face-detection.git
+cd face-recognition-deepface
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the project
+python main.py
